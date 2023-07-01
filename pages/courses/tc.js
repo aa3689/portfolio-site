@@ -12,7 +12,7 @@ const tc = () => {
         height={100}
       />
       <h3 className="text-lg font-bold pt-8 pb-2  ">Ticorporate</h3>
-      <p className="py-2" class="italic">
+      <p className="py-2 italic">
         Ticorporate on Jamkin liiketoimintasimulaatioympäristö, jossa
         opiskelijat suunnittelevat ja kehittävät omia sovelluksia ja pelejä.
         Ympäristö on rakennettu mahdollisimman todentuntuiseksi ja tästä syystä
