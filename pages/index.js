@@ -24,6 +24,7 @@ export default function Home() {
 
   return (
     <div className={darkMode ? '' : 'dark'}>
+      {/* HEAD */}
       <Head>
         <title>Toni H Portfolio</title>
         <meta
@@ -33,7 +34,11 @@ export default function Home() {
         <meta name="author" content="Toni Hiidenvuo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* HEAD END */}
+
+      {/* MAIN */}
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+        {/* NAV */}
         <section className="min-h-fit">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="text-xl">toni.hiidenvuo@gmail.com</h1>
@@ -46,6 +51,11 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+        </section>
+        {/* NAV END */}
+
+        {/* ESITTELY */}
+        <section>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Toni Hiidenvuo
@@ -79,6 +89,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* ESITTELY END */}
+
+        {/* KURSSIT */}
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
@@ -90,8 +103,6 @@ export default function Home() {
               jos kurssista sellainen on.
             </p>
           </div>
-
-          {/* KURSSIT */}
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <Ticorporate />
             <ICTInfra />
@@ -108,6 +119,9 @@ export default function Home() {
             <Algoritmit />
           </div>
         </section>
+        {/* KURSSIT END */}
+
+        {/* "FOOTER" */}
         <section>
           <div className="flex">
             <p className="text-sm text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-sm">
@@ -123,7 +137,9 @@ export default function Home() {
             </p>
           </div>
         </section>
+        {/* "FOOTER END" */}
       </main>
+      {/* MAIN END */}
     </div>
   );
 }
